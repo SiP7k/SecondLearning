@@ -1,0 +1,14 @@
+C:\Users\cavva\source\repos\SecondLearning\Анкета\bin\Debug\netcoreapp3.1\Анкета.exe
+C:\Users\cavva\source\repos\SecondLearning\Анкета\bin\Debug\netcoreapp3.1\Анкета.deps.json
+C:\Users\cavva\source\repos\SecondLearning\Анкета\bin\Debug\netcoreapp3.1\Анкета.runtimeconfig.json
+C:\Users\cavva\source\repos\SecondLearning\Анкета\bin\Debug\netcoreapp3.1\Анкета.runtimeconfig.dev.json
+C:\Users\cavva\source\repos\SecondLearning\Анкета\bin\Debug\netcoreapp3.1\Анкета.dll
+C:\Users\cavva\source\repos\SecondLearning\Анкета\bin\Debug\netcoreapp3.1\Анкета.pdb
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.csproj.AssemblyReference.cache
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.AssemblyInfoInputs.cache
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.AssemblyInfo.cs
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.csproj.CoreCompileInputs.cache
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.dll
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.pdb
+C:\Users\cavva\source\repos\SecondLearning\Анкета\obj\Debug\netcoreapp3.1\Анкета.genruntimeconfig.cache

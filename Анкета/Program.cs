@@ -4,16 +4,13 @@ class MainClass
 {
 	public static void Main(string[] args)
 	{
-
-		string MyName = "Savva";
-		byte MyAge = 21;
-		bool HaveIApet = true;
-		double MyShoeSize = 42.5;
-
-		Console.WriteLine("My name is " + MyName);
-		Console.WriteLine("MyAge " + MyAge);
-		Console.WriteLine("Do I have a pet? " + HaveIApet);
-		Console.WriteLine("My shoe size is " + MyShoeSize);
-
+		Console.Write("Введите ваше имя:");
+		string name = Console.ReadLine();
+		Console.Write("\nВведите ваш возраст:");
+		int age  = Convert.ToInt32(Console.ReadLine());
+		Console.WriteLine($"\nВаше имя - {name}, ваш возраст - {age}");
+		Console.Write("Введите дату вашего рождения");
+		string date = Console.ReadLine();
+		Console.WriteLine($"Ваша дата рождения - {date}");
 	}
 }
