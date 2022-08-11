@@ -1,0 +1,58 @@
+using System;
+
+class MainClass
+{
+	public static void Main(string[] args)
+	{
+        (string Name, string LastName, string Login, int LoginLength, bool HasPet, string[] favColors, double Age) User;
+        int[] array = GetArrayFromConsole(10);
+        int[] sortedArray = SortArray(array);
+        ShowArray(array,true);
+    }
+    static int[] GetArrayFromConsole(int num = 3)
+    {
+        var result = new int[num];
+
+        for (int i = 0; i < result.Length; i++)
+        {
+            Console.WriteLine("Введите элемент массива номер {0}", i + 1);
+            result[i] = int.Parse(Console.ReadLine());
+        }
+
+        
+        return result;
+    }
+    static int[] SortArray(int[] array)
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            int tempNumber = array[i];
+
+            for (int j = i + 1; j < array.Length; j++)
+            {
+                if (array[i] > array[j])
+                {
+                    tempNumber = array[i];
+                    array[i] = array[j];
+                    array[j] = tempNumber;
+                }
+
+            }
+        }
+        return array;
+    }
+    static void ShowArray(int[] numbers, bool isNotSorted = false)
+    {
+        var temp = numbers;
+
+        if (isNotSorted == true)
+        {
+            temp = SortArray(numbers);
+        }
+        foreach (var number in temp)
+        {
+            Console.Write(number);
+        }
+    }
+
+}
